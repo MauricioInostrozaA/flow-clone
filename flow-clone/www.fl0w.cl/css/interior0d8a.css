@@ -1,0 +1,612 @@
+/* CSS Document */
+/* HEADER */
+body {
+	padding-top: 100px;
+}
+figcaption, figure {
+	margin: 10px 0 10px 0;
+}
+.col-sm-6 {
+	margin: 0 0 10px 0;
+}
+.nopadding {
+	padding: 0px !important;
+	margin: 0 !important;
+}
+.titulo-producto {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: medium solid #3d9bb9
+}
+.bajo-titulo {
+	margin-top: 30px;
+}
+.jumbotron {
+	background-color: #2D768C;
+}
+/*.jumbotron-interior {
+	margin-top: 30px;
+}*/
+.jumbotron-interior .jumbotron {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+60&0.75+0,0+60 */
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.jumbotron-interior .jumbotron .titulo-caption {
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 1em;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+.page-header {
+	border-bottom: medium solid #3d9bb9;
+}
+.texto-boton {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.texto-boton img {
+	height: 22px;
+	margin-left: -10px;
+	margin-right: 20px;
+}
+.boton-agrega {
+	margin-bottom: 20px;
+}
+/* FIX ANCHOR */
+.jumptarget::before {
+	content: "";
+	display: block;
+	height: 115px; /* fixed header height*/
+	margin: -115px 0 0; /* negative fixed header height */
+}
+/* ENCABEZADO */
+#header img {
+	width: 55%;
+}
+a .contenedorInterior {
+	color: #333333;
+}
+.contenedorInterior {
+	background-color: #ffffff;
+	padding: 20px 10px 20px 10px;
+	align-content: center;
+	height: 230px;
+	border: 1px solid rgba(88, 203, 240, 0.50);
+	border-radius: 3px;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	width: 95%;
+}
+/* Float Shadow */
+.contenedorInterior:before {
+	pointer-events: none;
+	position: absolute;
+	z-index: -1;
+	content: '';
+	top: 100%;
+	left: 5%;
+	height: 10px;
+	width: 90%;
+	opacity: 0;
+	/*	background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+	background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);*/
+	/* W3C */
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform, opacity;
+	transition-property: transform, opacity;
+}
+.contenedorInterior:hover, .contenedorInterior:focus, .contenedorInterior:active {
+	-webkit-transform: translateY(-5px);
+	transform: translateY(-5px);/* move the element up by 5px */
+	outline: none;
+}
+.contenedorInterior:hover:before, .contenedorInterior:focus:before, .contenedorInterior:active:before {
+	opacity: 1;
+	-webkit-transform: translateY(5px);
+	transform: translateY(5px);/* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+	outline: none;
+}
+.contenedorInterior:visited {
+	outline: none;
+}
+.contenedorInterior img {
+	height: 70px;
+	max-width: 180px;
+}
+.contenedorInterior h3 {
+	height: 45px;
+}
+.contenedorInterior p {
+	height: 60px;
+}
+/* CAJA BENEFICIOS */
+.contenedorInteriorBeneficios {
+	background-color: #ffffff;
+	padding: 20px 10px 20px 10px;
+	align-content: center;
+	height: 250px;
+	border: 1px solid #B0BEC5;
+	border-radius: 3px;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	width: 95%;
+}
+.contenedorInteriorBeneficios img {
+	height: 70px;
+	max-width: 180px;
+}
+.contenedorInteriorBeneficios h3 {
+	height: 45px;
+}
+.contenedorInteriorBeneficios p {
+	height: 60px;
+}
+/* CAJA BENEFICIOS */
+
+/* CAJA CONOCENOS */
+a .contenedorInteriorConocenos {
+	color: #333333;
+}
+.contenedorInteriorConocenos {
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+	align-content: center;
+	height: 150px;
+	border: 1px solid #B0BEC5;
+	border-radius: 3px;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	width: 95%;
+}
+.contenedorInteriorConocenos img {
+	max-width: 250px;
+}
+.contenedorInteriorConocenos h3 {
+	height: 45px;
+}
+.contenedorInteriorConocenos p {
+	height: 60px;
+}
+/* CAJA CONOCENOS */
+/* CAJA CONOCENOS SOLUCIONES */
+a .contenedorInteriorSoluciones {
+	color: #333333;
+}
+.contenedorInteriorSoluciones {
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+	align-content: center;
+	height: 200px;
+	border: 1px solid rgba(88, 203, 240, 0.50);
+	border-radius: 3px;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	width: 95%;
+}
+/* Float Shadow */
+.contenedorInteriorSoluciones:before {
+	pointer-events: none;
+	position: absolute;
+	z-index: -1;
+	content: '';
+	top: 100%;
+	left: 5%;
+	height: 10px;
+	width: 90%;
+	opacity: 0;
+	/*	background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+	background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);*/
+	/* W3C */
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform, opacity;
+	transition-property: transform, opacity;
+}
+.contenedorInteriorSoluciones:hover, .contenedorInteriorSoluciones:focus, .contenedorInteriorSoluciones:active {
+	-webkit-transform: translateY(-5px);
+	transform: translateY(-5px);/* move the element up by 5px */
+}
+.contenedorInteriorSoluciones:hover:before, .contenedorInteriorSoluciones:focus:before, .contenedorInteriorSoluciones:active:before {
+	opacity: 1;
+	-webkit-transform: translateY(5px);
+	transform: translateY(5px);/* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+.contenedorInteriorSoluciones img {
+	max-width: 250px;
+}
+.contenedorInteriorSoluciones h3 {
+	height: 45px;
+}
+.contenedorInteriorSoluciones p {
+	height: 60px;
+}
+/* CAJA CONOCENOS SOLUCIONES */
+.flow-frame-form img {
+	margin-bottom: 10px;
+}
+.bs-callout {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bs-callout p {
+	margin-bottom: 0px;
+}
+.flow-frame-form {
+	padding: 10px;
+}
+a.terminosModal {
+	font-family: 'Montserrat', sans-serif;
+}
+.tablaTarifas{
+	margin-bottom: 10px;
+}
+.contenedorContenido {
+    padding-bottom: 20px;
+}
+.botonMargen {
+    margin-top: 5px;
+    margin-right: 0px;
+}
+.campoMedio {
+	width: 100%;
+	height: 22px;
+}
+
+
+@media (max-width: 1200px) {
+/* FIX ANCHOR */
+body {
+	padding-top: 51px;
+}
+h2 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+ol {
+	margin: 0px 0px 0px 15px;
+	padding: 0
+}
+ul {
+	margin: 0px 0px 0px 15px;
+	padding: 0
+}
+.jumptarget::before {
+	content: "";
+	display: block;
+	/*height: 65px;  fixed header height*/
+	/*margin: -55px 0 0;  negative fixed header height */
+	height: auto;
+	margin: auto;
+}
+.contenedorInterior {
+	width: 95%;
+}
+.contenedorInterior h3 {
+	height: 55px;
+	font-size: 20px;
+}
+.contenedorInterior p {
+	height: 70px;
+}
+.contenedorInterior:hover, .contenedorInterior:focus, .contenedorInterior:active {
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);/* move the element up by 5px */
+}
+.contenedorInterior:hover:before, .contenedorInterior:focus:before, .contenedorInterior:active:before {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);/* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+/* CAJA BENEFICIOS */
+.contenedorInteriorBeneficios {
+	width: 95%;
+}
+.contenedorInteriorBeneficios h3 {
+	height: 35px;
+	font-size: 20px;
+}
+.contenedorInteriorBeneficios p {
+	height: 70px;
+}
+/* CAJA BENEFICIOS */
+/* CAJA CONOCENOS */
+.contenedorInteriorConocenos {
+	width: 95%;
+}
+.contenedorInteriorConocenos h3 {
+	height: 55px;
+	font-size: 20px;
+}
+.contenedorInteriorConocenos p {
+	height: 70px;
+}
+/* CAJA CONOCENOS */
+/* CAJA CONOCENOS SOLUCIONES*/
+.contenedorInteriorSoluciones:hover, .contenedorInteriorSoluciones:focus, .contenedorInteriorSoluciones:active {
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);/* move the element up by 5px */
+}
+.contenedorInteriorSoluciones:hover:before, .contenedorInteriorSoluciones:focus:before, .contenedorInteriorSoluciones:active:before {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);/* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+.contenedorInteriorSoluciones {
+	width: 95%;
+}
+.contenedorInteriorSoluciones h3 {
+	height: 35px;
+	font-size: 20px;
+}
+.contenedorInteriorSoluciones p {
+	height: 70px;
+}
+/* CAJA CONOCENOS SOLUCIONES */	
+/* ENCABEZADO */
+#header h1 {
+	font-size: 36px;
+}
+#header p {
+	font-size: 22px;
+}
+#header img {
+	width: 55%;
+	margin-top: 20px;
+}
+/* / ENCABEZADO */
+}
+
+@media (max-width:1024px) {
+.campoMedio {
+	min-width: 290px;
+	min-height: 22px;
+}
+}
+
+@media(min-width:768px) {
+}
+
+@media(max-width:768px) {
+/* FIX ANCHOR */
+body {
+	padding-top: 51px;
+}
+.nopadding {
+	padding: 0px !important;
+	margin: 0 !important;
+}
+.nopadding-movil {
+	padding: 10px !important;
+	margin: 0 !important;
+}
+.jumptarget::before {
+	content: "";
+	display: block;
+	/*height: 65px;  fixed header height*/
+	/*margin: -55px 0 0;  negative fixed header height */
+	height: auto;
+	margin: auto;
+}
+/* ENCABEZADO */
+#header h1 {
+	font-size: 24px;
+}
+#header p {
+	font-size: 16px;
+}
+#header img {
+	width: 55%;
+	margin-top: 20px;
+}
+/* / ENCABEZADO */
+}
+
+@media (max-width: 740px) {
+/* FIX ANCHOR */
+body {
+	padding-top: 40px;
+}
+.jumptarget::before {
+	content: "";
+	display: block;
+	/*height: 55px;  fixed header height*/
+	/*margin: -55px 0 0;  negative fixed header height */
+	height: auto;
+	margin: auto;
+}
+/* ENCABEZADO */
+#header h1 {
+	font-size: 36px;
+}
+#header p {
+	font-size: 18px;
+}
+#header img {
+	width: 60% !important;
+	margin-top: 20px;
+}
+/* / ENCABEZADO */
+.page-header {
+	margin: 10px 0 10px;
+}
+.titulo-head {
+	font-size: 24px;
+}
+.contenedorInterior {
+	height: auto;
+}
+.contenedorInterior h3 {
+	height: auto;
+}
+.contenedorInterior p {
+	height: auto;
+}
+/* CAJA BENEFICIOS */
+.contenedorInteriorBeneficios {
+	height: auto;
+}
+.contenedorInteriorBeneficios h3 {
+	height: auto;
+}
+.contenedorInteriorBeneficios p {
+	height: auto;
+}
+/* CAJA BENEFICIOS */
+/* CAJA CONOCENOS */
+	
+.contenedorInteriorConocenos {
+	height: auto;
+}
+.contenedorInteriorConocenos h3 {
+	height: auto;
+}
+.contenedorInteriorConocenos p {
+	height: auto;
+}
+/* CAJA CONOCENOS */
+	/* CAJA CONOCENOS SOLUCIONES */
+	
+.contenedorInteriorSoluciones {
+	height: auto;
+}
+.contenedorInteriorSoluciones h3 {
+	height: auto;
+}
+.contenedorInteriorSoluciones p {
+	height: auto;
+}
+/* CAJA CONOCENOS SOLUCIONES */
+}
+
+@media only screen and (max-width : 480px) {
+/* FIX ANCHOR */
+body {
+	padding-top: 40px;
+}
+.jumptarget::before {
+	content: "";
+	display: block;
+	/*height: 55px;  fixed header height*/
+	/*margin: -55px 0 0;  negative fixed header height */
+	height: auto;
+	margin: auto;
+}
+}
+
+@media only screen and (max-width : 320px) {
+/* FIX ANCHOR */
+body {
+	padding-top: 40px;
+}
+.jumptarget::before {
+	content: "";
+	display: block;
+	/*height: 55px; fixed header height*/
+	/*margin: -55px 0 0;  negative fixed header height */
+	height: auto;
+	margin: auto;
+}
+/* ENCABEZADO */
+#header h1 {
+	font-size: 24px;
+}
+#header p {
+	font-size: 16px;
+}
+#header img {
+	width: 35%;
+	margin-top: 20px;
+}
+/* / ENCABEZADO */
+.page-header {
+	margin: 10px 0 10px;
+}
+.titulo-head {
+	font-size: 24px;
+}
+.contenedorInterior {
+	height: auto;
+}
+.contenedorInterior h3 {
+	height: auto;
+}
+.contenedorInterior p {
+	height: auto;
+}
+/* CAJA BENEFICIOS */
+.contenedorInteriorBeneficios {
+	height: auto;
+}
+.contenedorInteriorBeneficios h3 {
+	height: auto;
+}
+.contenedorInteriorBeneficios p {
+	height: auto;
+}
+/* CAJA BENEFICIOS */
+/* CAJA CONOCENOS */
+.contenedorInteriorConocenos {
+	height: auto;
+}
+.contenedorInteriorConocenos h3 {
+	height: auto;
+}
+.contenedorInteriorConocenos p {
+	height: auto;
+}
+/* CAJA CONOCENOS */
+/* CAJA CONOCENOS SOLUCIONES */
+.contenedorInteriorSoluciones {
+	height: auto;
+}
+.contenedorInteriorSoluciones h3 {
+	height: auto;
+}
+.contenedorInteriorSoluciones p {
+	height: auto;
+}
+/* CAJA CONOCENOS SOLUCIONES */
+
+}

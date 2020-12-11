@@ -1,0 +1,72 @@
+/* CSS Document */
+body {
+	background: url('../images/fondo-registro.jpg') fixed;
+	background-size: cover;
+	height: 100%
+}
+.flow-frame-form {
+	margin-bottom: 0px;
+	padding: 25px;
+}
+.cajaIngreso {
+	margin-top: 50px;
+}
+.contenedorEnviar {
+	margin-bottom: 20px;
+}
+.textoLogin {
+	font-size: 15px;
+}
+.contenedorBajoLogin {
+	margin-bottom: 10px;
+}
+.cajaCaptcha {
+	margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+.cajaIngreso {
+	margin-top: 40px;
+}
+}
+
+@media(min-width:768px) {
+}
+
+@media(max-width:768px) {
+.cajaIngreso {
+	margin-top: 40px !important;
+}
+.textoLogin {
+	font-size: 16px;
+}
+body {
+	background: none;
+}
+.nopadding {
+	padding: 0px 0px 0px 0px !important;
+	margin: 30px 0px 0px 0px !important;
+}
+.nopaddingInterno {
+	padding: 0px 8px 0px 8px !important;
+	margin: 0px 0px 0px 0px !important;
+}
+}
+
+@media (max-width: 740px) {
+.cajaIngreso {
+	margin-top: 30px !important;
+}
+}
+
+@media only screen and (max-width : 480px) {
+.cajaIngreso {
+	margin-top: 30px !important;
+}
+}
+
+@media only screen and (max-width : 320px) {
+.cajaIngreso {
+	margin-top: 30px !important;
+}
+}

@@ -1,0 +1,67 @@
+.yamm .nav,.yamm .collapse,.yamm .dropup,.yamm .dropdown{position:static}
+.yamm .container{position:relative}
+.yamm .dropdown-menu{left:auto}
+.yamm .yamm-content{padding:20px 30px;min-width:400px}
+.yamm .dropdown.yamm-fw .dropdown-menu{left:0;right:0}
+.navbar{margin-bottom:0}
+#navbar-collapse-2 .navbar-nav{margin-top:5px;margin-bottom:5px}
+.navbar-header img{height:35px;margin-top:7px;margin-bottom:7px}
+.navbar-brand{height:35px;margin-top:10px;padding:0;padding-right:20px;margin-left:0!important}
+.navbar-brand img{height:35px;margin:0}
+.navbar-right{margin-right:0}
+.navbar-nav > li > a{padding-top:10px;padding-bottom:10px}
+.barra-calipso{display:block;height:1px;border:0;border-top:1px solid rgba(88,203,240,.25);margin:10px 0;padding:0}
+.menu{font-family:'Montserrat',sans-serif;font-size:1em;color:#333!important}
+.bullet{height:36px;margin-right:10px;max-width:36px}
+.botonMenu{width:135px}
+.opcionMenu div{display:flex;align-items:center;height:45px;line-height:1em}
+.opcionMenu a{color:#333}
+.opcionMenu:hover{color:#000}
+.imagenMenu{height:24px;margin-right:10px;max-width:36px}
+@media (max-width: 1199px) {
+.navbar-header{float:none}
+.navbar-left,.navbar-right{float:none!important}
+.navbar-toggle{display:block}
+.navbar-collapse{border-top:1px solid transparent;box-shadow:inset 0 1px 0 rgba(255,255,255,.1)}
+.navbar-fixed-top{top:0;border-width:0 0 1px}
+.navbar-collapse.collapse{display:none!important}
+.navbar-nav{float:none!important;margin-top:7.5px}
+.navbar-nav > li{float:none}
+.navbar-nav > li > a{padding-top:10px;padding-bottom:10px}
+.collapse.in{display:block!important}
+.dropdown-menu{top:inherit}
+.navbar-fixed-top .navbar-collapse{max-height:400px}
+.menu-administrar{float:right}
+.menu-administrar button{margin-left:20px;margin-bottom:5px;background-color:#545454;font-size:12px;color:#FFF}
+.menu-administrar button:hover{background-color:#3D9BB9;color:#FFF}
+.menu-administrar button:active{background-color:#3D9BB9;color:#FFF}
+.menu-administrar button:focus{color:#FFF}
+.menu-administrar .dropdown-menu{top:30px}
+}
+@media (min-width: 768px) {
+.navbar-default{-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s;padding:0;background-color:#fff}
+.navbar-default.affix{padding:0;top:0}
+.navbar.second-navbar{height:40px;min-height:40px;z-index:1029}
+.navbar-nav.navbar-center{position:absolute;left:50%;transform:translatex(-50%)}
+.second-navbar .navbar-nav li a{font-family:'Montserrat',sans-serif;padding-top:10px;padding-bottom:10px;font-size:13px;font-weight:500}
+.second-navbar .navbar-nav li .menu-activo{background-color:#3D9BB9;color:#fff}
+.second-navbar .navbar-nav li .menu-activo:hover{background-color:#2d768c;color:#fff}
+.second-navbar .navbar-nav li.tituloSecond{font-family:'Montserrat',sans-serif;padding-top:4px;font-size:22px;font-weight:500}
+.second-navbar .navbar-nav li.tituloSecond a{font-family:'Montserrat',sans-serif;padding-top:4px;font-size:22px;font-weight:500}
+.second-navbar .navbar-nav li a:hover,.second-navbar .navbar-nav li a:active,.second-navbar .navbar-nav li a:focus{background-color:#3D9BB9;color:#fff}
+.nav .open > a,.nav .open > a:focus,.nav .open > a:hover{background-color:#3D9BB9}
+.second-navbar{-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s;background-color:#545454;top:60px;color:#fff;text-align:center}
+.second-navbar a{color:#fff}
+.second-navbar.affix{padding:0;top:60px}
+.menuSuperior{margin-top:5px;margin-bottom:5px}
+}
+@media (max-width: 768px) {
+.yamm .yamm-content{min-width:320px}
+}
+@media only screen and (max-width: 480px) {
+.opcionMenu{height:30px}
+}
+@media only screen and (max-width: 320px) {
+.opcionMenu{height:40px}
+.botones{margin-left:5px;width:100px;min-width:100px}
+}

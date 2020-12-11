@@ -1,0 +1,31 @@
+a i.iconoTabla{color:white;}
+.tooltip > .tooltip-inner{background-color:#FFFFFF;color:#000000;padding:5px;font-size:14px;}
+.formRegistro{margin:0 0 30px 0;}
+.form-control{height:42px;font-size:15px;border:1px solid #ccc;border-radius:2px;font-weight:bold;}
+.progress-bar{background:#247F9C;}
+label{font-weight:100;}
+.btn{border:none;-webkit-box-shadow:1px 1px 4px rgba(0, 0, 0, 0.4);box-shadow:1px 1px 4px rgba(0, 0, 0, 0.4);-webkit-transition:all 0.4s;-o-transition:all 0.4s;}
+.btn-flow-default{color:rgb(255, 255, 255) !important;background-color:#3D9BB9 !important;border-color:#3D9BB9 !important;border-radius:2px !important;margin-right:5px;}
+.btn-flow-default:hover{color:#fff !important;background-color:#2d768c !important;border-color:#2d768c !important;}
+.btn-flow-default[disabled], .btn-flow-default[disabled]:hover{color:#fff !important;background-color:#2d768c !important;border-color:#2d768c !important;}
+.btn-flow-inv{color:#fff !important;background-color:#333 !important;border-color:#333 !important;border-radius:2px !important;}
+.btn-flow-inv:hover{color:rgb(255, 255, 255) !important;background-color:#171717 !important;border-color:#171717 !important;}
+.btn-lg{padding:14px 28px;font-size:14px;line-height:1.3333333;text-transform:uppercase;}
+.botonIngreso{margin-top:10px;}
+/**/.bs-callout{padding:3px 15px;margin:20px 20;border:1px solid #ddd;border-left-width:5px;border-radius:2px;}
+.bs-callout-info{border-left-color:#1b809e;background:rgb(218, 231, 236);}
+.bs-callout-warning{border-left-color:#efe826;background:rgb(246, 255, 187);}
+.bs-callout-solotexto{padding-top:8px;padding-bottom:8px;}
+/**/.table-center-all-v td{vertical-align:middle !important;}
+.table-style thead{background:#3d9bb9;color:white;text-shadow:none;font-size:16px;}
+.table-style th{font-weight:500;}
+.table-style.table-bordered{border:2px solid #3d9bb9;}
+.table-style.table-bordered>thead>tr>th, .table-style.table-bordered>tbody>tr>th, .table-style.table-bordered>tfoot>tr>th, .table-style.table-bordered>thead>tr>td, .table-style.table-bordered>tbody>tr>td, .table-style.table-bordered>tfoot>tr>td{border:1px solid transparent;}
+label .fa-question-circle{font-size:16px;margin-left:2px;color:#999;cursor:help;}
+label .fa-question-circle-o{font-size:19px;margin-left:2px;color:#c5c5c5;}
+.formTitle{border-bottom:medium solid #3d9bb9;padding-bottom:6px;margin-bottom:25px;margin-top:12px;text-transform:uppercase;}
+input.invalid, input.invalid:focus{border:1px solid #f73b3b;color:#f73b3b;}
+.invalid{color:#f73b3b;}
+.form-control{margin-bottom:10px;}
+/**/.flow-frame-form{border:solid 2px #ddd;padding:15px;border-radius:2px;margin-bottom:10px;background:#eee;padding-bottom:0;}
+.callout-margin-bottom-o{margin-bottom:0;}

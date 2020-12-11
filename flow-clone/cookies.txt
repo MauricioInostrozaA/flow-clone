@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.flow.cl	TRUE	/	FALSE	1999999999	PHPSESSID	kppbqn3a73c454dtt5o0554n04
+www.flow.cl	TRUE	/	FALSE	1999999999	samesite	None
+www.flow.cl	TRUE	/	FALSE	1999999999	AWSALB	gzzCbi8emwpWTov+N9Qk2fP+iGmEgIZB8x/jdMffWUciT6ZNUgfkY/pucKX16czxmsuCMQBgNtgmTk2cd1g0VqamEV0DqvdmvPz5vfVNfXXE15+95XI/XpoNQbRC7BHzw5rrW0+DaC6CGj9kj9UfE8GG//822vHnGAqvrbILqDY6SEnjMWRfYJ/6/fU7GQ==
+www.flow.cl	TRUE	/	FALSE	1999999999	AWSALBCORS	gzzCbi8emwpWTov+N9Qk2fP+iGmEgIZB8x/jdMffWUciT6ZNUgfkY/pucKX16czxmsuCMQBgNtgmTk2cd1g0VqamEV0DqvdmvPz5vfVNfXXE15+95XI/XpoNQbRC7BHzw5rrW0+DaC6CGj9kj9UfE8GG//822vHnGAqvrbILqDY6SEnjMWRfYJ/6/fU7GQ==
+www.flow.cl	TRUE	/	FALSE	1999999999	SameSite	None
+

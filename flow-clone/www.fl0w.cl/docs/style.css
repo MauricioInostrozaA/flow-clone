@@ -1,0 +1,98 @@
+/* Titulo h1 */
+redoc[spec-url] h1 {
+	color: #333333;
+	border-bottom: medium solid #3d9bb9;
+}
+redoc[spec-url] .jRlunX h1 {
+	padding-top: 0px;
+}
+
+/* Titulo h2 */
+redoc[spec-url] h2 {
+	color: #555555;
+}
+
+/* Titulo h3 */
+redoc[spec-url] h3 {
+	color: #555555;
+}
+redoc[spec-url] .sc-iwsKbI.giPKeQ {
+	color: #FFFFFF;
+}
+
+/* Titulo h4 */
+redoc[spec-url] h4 {
+	color: #555555;
+}
+
+/* Titulo h5 */
+redoc[spec-url] h5 {
+	color: #555555;
+}
+redoc[spec-url] .sc-kpOJdX.gnUrGW {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Parrafo */
+redoc[spec-url] p {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Enlaces */
+redoc[spec-url] a, redoc[spec-url] a:visited {
+    color: #337ab7;
+    text-decoration: none;
+}
+redoc[spec-url] a:focus, redoc[spec-url] a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+redoc[spec-url] .sc-iRbamj.jFepoZ {
+	border-color: #337ab7;
+}
+redoc[spec-url] .sc-iRbamj.jFepoZ:focus, .sc-iRbamj.jFepoZ:hover {
+	border-color: #23527c;
+}
+
+/* Tabla */
+redoc[spec-url] .sc-kAzzGY.fzywRl {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Columna izquierda  */
+redoc[spec-url] .cCFwLh  {
+	background: #F5F5F5;
+}
+redoc[spec-url] .koKEdh.active {
+    background-color: #3D9BB9;
+    color: #FFFFFF;
+}
+redoc[spec-url] .unwHR.active {
+    background-color: #2D768C;
+    color: #FFFFFF;
+}
+redoc[spec-url] .chbway.active {
+    background-color: #2D768C;
+    color: #FFFFFF;
+}
+
+/* Contenedor oscuro  */
+redoc[spec-url] .fLhGnD {
+	background-color: #333333;
+}
+redoc[spec-url] .eJTGKW > .react-tabs__tab-panel {
+    background-color: #252525
+}
+redoc[spec-url] .dIcNqX {
+    background-color: #252525
+}
+redoc[spec-url] .iyJBxZ {
+    background-color: #1C1C1C;
+}
+
+
+
+
+
+
+
